@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import Board from '@/components/Board'
+import Header from '@/components/Header'
 
 export default function Home() {
   return (
     <main >
-      <h1>Hello It is taskko</h1>
+      {/* Header */}
+      <Header />
+
+      {/* Board */}
+
+      <Board />
     </main>
   )
 }
